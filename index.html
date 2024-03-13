@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_form</title>
+    <style>
+        body{
+            
+            background-image: url(login.jpg);
+        }
+        h1{
+            text-align: center;
+            margin: 0 auto;
+            padding-bottom: 15px;
+        }
+        #new{
+            max-width: 500px;
+            margin: auto;
+            height: 350px;
+            width:  300px;
+            padding: 20px;
+            margin-top: 10%;
+            background-color: #F1F1F2;
+            box-shadow: 2px 2px 11px;
+            border-radius: 9px;
+        }
+        span{
+            margin: auto auto;
+            background-color: aliceblue;
+        } 
+        hr{
+            margin: 20px;
+        }
+        .button {
+        background-color: #04AA6D; /* Green */
+        border: 1px solid orange;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 6.5px;
+        cursor: pointer;
+        width: 100%;
+        }
+    </style>
+</head>
+<body>
+   
+    <div id="new">
+        <span><h1>Login</h1></span> <hr>
+    Username: 
+    <input style=" border-radius: 7px;" type="text" size="20" pattern="[A-z] {5} [-] [0-9] {3} [-] {a-z} [2]" placeholder="UserName" maxlength="15" required> <br><br>
+    Password: 
+    <input style="border-radius: 7px"; type="password" size="20" pattern="[A-Z a-z 0-9]{3,20}" placeholder="Password"><br><br><br>
+    
+        <button class="button button3">Login</button>
+      
+    <h4 style="opacity: 0.6; text-align: center;">Not Registerd?<a href="">Create an account</a></h4>
+    
+    </div>
+</body>
+</html>
